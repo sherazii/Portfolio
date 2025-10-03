@@ -54,18 +54,12 @@ const AppShowcase = () => {
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                <a href="https://investment-calcuator.vercel.app/">Checkout my Calculator app</a>
               </h2>
               <p className="text-white-50 md:text-xl">
                 An app built with React Native, Expo, & TailwindCSS for a fast,
                 user-friendly experience.{" "}
-                <Link
-                  to={"https://investment-calcuator.vercel.app/"}
-                  className="text-blue-500 underline"
-                >
-                  Visit my Calculator app
-                </Link>
+                
               </p>
             </div>
           </div>
