@@ -253,18 +253,22 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    link: "https://www.instagram.com/sheraz.ali.hashmi?igsh=MWdlOXFqaHYwZW1uMg=="
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
+    link: "https://www.facebook.com/share/1EJ45m72wk/"
   },
   {
     name: "x",
     imgPath: "/images/x.png",
+    link: "/"
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/sheraz-hashmi-b0040734a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   },
 ];
 
