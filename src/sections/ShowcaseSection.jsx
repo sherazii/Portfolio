@@ -49,17 +49,17 @@ const AppShowcase = () => {
       <div className="w-full">
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+            <div className="bg-amber-100 rounded-2xl p-10">
+              <img src="/images/project2.png" alt="Ryde App Interface" className="w-full h-full rounded-2xl bg-cover"/>
             </div>
             <div className="text-content">
               <h2>
-                <a href="https://investment-calcuator.vercel.app/">
-                  Checkout my Calculator app
+                <a href="https://mern-blog-clone.vercel.app/">
+                  Checkout demo Blog App
                 </a>
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
+                A webapp built with MERN Stack, Shadcn, & TailwindCSS for a fast,
                 user-friendly experience.{" "}
               </p>
             </div>
@@ -67,11 +67,11 @@ const AppShowcase = () => {
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
-                <div className="image-wrapper bg-[#FFEFDB]">
-                  <img src="/images/project2.png" alt="Blog app" />
+                <div className=" bg-[#FFEFDB] p-5 rounded-2xl">
+                  <img src="/images/project1.png" alt="Blog app" className="w-full h-full rounded-2xl bg-cover"/>
                 </div>
-              <a href="https://mern-blog-clone.vercel.app/">
-                <h2>A full fledge Blogging app</h2>
+              <a href="#">
+                <h2>A food ordring app</h2>
               </a>
             </div>
 

@@ -34,7 +34,7 @@ const Hero = () => {
                   </span>
                 </span>
               </h1>
-              <h1>Ideas Into Code</h1>
+              <h1>Into Clean Code</h1>
               <h1>With Modern MERN</h1>
             </div>
 
