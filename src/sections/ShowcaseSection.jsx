@@ -50,26 +50,34 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="bg-amber-100 rounded-2xl p-10">
-              <img src="/images/project2.png" alt="Ryde App Interface" className="w-full h-full rounded-2xl bg-cover"/>
+              <img
+                src="/images/project2.png"
+                alt="Ryde App Interface"
+                className="w-full h-full rounded-2xl bg-cover"
+              />
             </div>
             <div className="text-content">
               <h2>
-                <a href="https://mern-blog-clone.vercel.app/">
+                <a href="https://mern-blog-clone.vercel.app/" target="blank">
                   Checkout demo Blog App
                 </a>
               </h2>
               <p className="text-white-50 md:text-xl">
-                A webapp built with MERN Stack, Shadcn, & TailwindCSS for a fast,
-                user-friendly experience.{" "}
+                A webapp built with MERN Stack, Shadcn, & TailwindCSS for a
+                fast, user-friendly experience.{" "}
               </p>
             </div>
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
-                <div className=" bg-[#FFEFDB] p-5 rounded-2xl">
-                  <img src="/images/project1.png" alt="Blog app" className="w-full h-full rounded-2xl bg-cover"/>
-                </div>
+              <div className=" bg-[#FFEFDB] p-5 rounded-2xl">
+                <img
+                  src="/images/project1.png"
+                  alt="Blog app"
+                  className="w-full h-full rounded-2xl bg-cover"
+                />
+              </div>
               <a href="#">
                 <h2>A food ordring app</h2>
               </a>
@@ -79,7 +87,12 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#FFE7EB]">
                 <img src="/images/project3.png" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <a
+                href="https://e-commerce-f9z4-git-main-muhammad-sherazs-projects.vercel.app/"
+                target="blank"
+              >
+                <h2>A Full Ecommerce Demo website</h2>
+              </a>
             </div>
           </div>
         </div>
