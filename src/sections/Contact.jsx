@@ -4,6 +4,10 @@ import emailjs from "@emailjs/browser";
 
 // Import custom title header component
 import TitleHeader from "../components/TitleHeader";
+import { FaWhatsapp } from "react-icons/fa";
+import { CgMail } from "react-icons/cg";
+import { FaAddressCard } from "react-icons/fa";
+import { FaGlobe } from "react-icons/fa";
 
 const Contact = () => {
   // Reference to the form element (used by EmailJS)
@@ -56,7 +60,7 @@ const Contact = () => {
         />
 
         {/* Main layout wrapper for form and image */}
-        <div className="md:flex w-full items-center md:justify-between justify-center mt-10">
+        <div className="md:flex w-full items-center md:justify-between justify-center mt-10 gap-5">
           {/* Contact form container */}
           <div className="md:w-[60%] w-[90vw] mx-auto">
             <div className="flex-center card-border rounded-xl p-10">
@@ -123,11 +127,43 @@ const Contact = () => {
               </form>
             </div>
           </div>
-
-          {/* Contact image (decorative/illustrative) */}
-          <div className="md:w-[35%] w-[90vw] mx-auto">
-            <div className="rounded-3xl overflow-hidden">
-              <img src="/images/contact.png" alt="Contact illustration" />
+          <div className="md:w-[40%] w-[90vw] mx-auto">
+            <div className=" flex-center card-border rounded-xl p-10 flex-col">
+              <h2 className="text-center mb-16 text-6xl font-semibold text-amber-300">
+                Contact Us
+              </h2>
+              <div className="w-[80%] mx-auto flex flex-col justify-center gap-5 pl-5">
+                <div className="flex gap-3 items-center">
+                  <span className="bg-gray-400 p-2 rounded-full">
+                    <FaWhatsapp className="text-2xl" />
+                  </span>
+                  <pre className="text-lg text-amber-200">+92 305 5228089</pre>
+                </div>
+                <div className="flex gap-3 items-center">
+                  <span className="bg-gray-400 p-2 rounded-full">
+                    <CgMail className="text-2xl" />
+                  </span>
+                  <pre className="text-lg text-amber-200">
+                    sherazhashmi111@gmail.com
+                  </pre>
+                </div>
+                <div className="flex gap-3 items-center">
+                  <span className="bg-gray-400 p-2 rounded-full">
+                    <FaAddressCard className="text-2xl" />
+                  </span>
+                  <address className="text-lg text-amber-200">
+                    Sialkot Road, Gujranwala, Punjab, Pakistan
+                  </address>
+                </div>
+                <div className="flex gap-3 items-center">
+                  <span className="bg-gray-400 p-2 rounded-full">
+                    <FaGlobe className="text-2xl" />
+                  </span>
+                  <a href="/" className="text-lg text-amber-200">
+                    www.hashmitech.site
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
