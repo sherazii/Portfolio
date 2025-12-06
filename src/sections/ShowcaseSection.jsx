@@ -85,7 +85,7 @@ const AppShowcase = () => {
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/project-3.png" alt="YC Directory App" />
               </div>
               <a
                 href="https://e-commerce-f9z4-git-main-muhammad-sherazs-projects.vercel.app/"
